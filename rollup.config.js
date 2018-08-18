@@ -1,12 +1,12 @@
-import pkg from './package.json'
+import pkg from './package.json';
 
-const input = 'src/main.js'
+const input = 'src/main.js';
 
 export default [
   {
     input,
     output: {
-      name: 'jsonApi',
+      name: 'apiJson',
       file: pkg.browser,
       format: 'umd'
     }
@@ -18,4 +18,4 @@ export default [
       { file: pkg.module, format: 'es' }
     ]
   }
-]
+];
