@@ -8,7 +8,8 @@
   "module": "dist/module/api-json.js",
   "browser": "dist/browser/api-json.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest"
   },
   "devDependencies": {
     "eslint": "^5.4.0",
