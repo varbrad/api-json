@@ -1,7 +1,2 @@
-import parser from './parser';
-import presenter from './presenter';
-
-export default {
-  parser,
-  presenter
-};
+export { default as parser } from './parser';
+export { default as presenter } from './presenter';
